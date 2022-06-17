@@ -37,19 +37,16 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Wifi Overlay
 PRODUCT_PACKAGES += \
-    OnePlus9RWifiOverlay
+    OnePlus8WifiOverlay
     
-PRODUCT_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 29
     
 # fstab
 PRODUCT_PACKAGES += \
     fstab.qcom
-    
-# Enable virtual A/B OTA
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/lemonades/lemonades-vendor.mk)
+$(call inherit-product, vendor/oneplus/instantnoodle/instantnoodle-vendor.mk)
