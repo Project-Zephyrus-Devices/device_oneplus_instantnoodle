@@ -2665,10 +2665,6 @@
         <ctl name="TFA_CHIP_SELECTOR" value="2" />
     </path>
 
-    <path name="mmi-mic-seal-handset">
-        <ctl name="TFA_CHIP_SELECTOR" value="3" />
-    </path>
-
 <!-- lifei@MM.Audio, 2018/02/24, add game mixer path -->
     <path name="speaker-ext-1">
     </path>
@@ -2864,7 +2860,7 @@
 
     <path name="qva-re-mic">
         <path name="dmic2" />
-        <ctl name="TX_DEC2 Volume" value="95" />
+        <ctl name="TX_DEC2 Volume" value="106" />
     </path>
 <!-- endif -->
 
@@ -3181,8 +3177,8 @@
         <ctl name="TX DMIC MUX1" value="DMIC1" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX DMIC MUX2" value="DMIC3" />
-        <ctl name="TX_DEC1 Volume" value="84" />
-        <ctl name="TX_DEC2 Volume" value="84" />
+        <ctl name="TX_DEC1 Volume" value="90" />
+        <ctl name="TX_DEC2 Volume" value="90" />
     </path>
     <path name="handset-mic-re-default">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
@@ -3190,8 +3186,8 @@
         <ctl name="TX DMIC MUX1" value="DMIC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX DMIC MUX2" value="DMIC1" />
-        <ctl name="TX_DEC1 Volume" value="84" />
-        <ctl name="TX_DEC2 Volume" value="84" />
+        <ctl name="TX_DEC1 Volume" value="90" />
+        <ctl name="TX_DEC2 Volume" value="90" />
     </path>
     <path name="handset-mic-re-sbc-other">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
@@ -3199,8 +3195,8 @@
         <ctl name="TX DMIC MUX1" value="DMIC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX DMIC MUX2" value="DMIC1" />
-        <ctl name="TX_DEC1 Volume" value="84" />
-        <ctl name="TX_DEC2 Volume" value="84" />
+        <ctl name="TX_DEC1 Volume" value="90" />
+        <ctl name="TX_DEC2 Volume" value="90" />
     </path>
     <path name="handset-mic-re-single">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
@@ -3238,8 +3234,8 @@
         <ctl name="TX DMIC MUX1" value="DMIC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
         <ctl name="TX DMIC MUX2" value="DMIC1" />
-        <ctl name="TX_DEC1 Volume" value="84" />
-        <ctl name="TX_DEC2 Volume" value="84" />
+        <ctl name="TX_DEC1 Volume" value="90" />
+        <ctl name="TX_DEC2 Volume" value="90" />
     </path>
     <!-- #endif VENDOR_EDIT-->
 

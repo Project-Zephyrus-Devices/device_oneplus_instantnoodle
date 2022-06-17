@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lemonades.mk
+    $(LOCAL_DIR)/instantnoodle.mk
 
 COMMON_LUNCH_CHOICES := \
-    lemonades-user \
-    lemonades-userdebug \
-    lemonades-eng
+    instantnoodle-user \
+    instantnoodle-userdebug \
+    instantnoodle-eng

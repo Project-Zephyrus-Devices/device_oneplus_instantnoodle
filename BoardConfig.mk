@@ -17,10 +17,10 @@
 # Inherit from oneplus sm8250-common
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/lemonades
+DEVICE_PATH := device/oneplus/instantnoodle
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus8T,OnePlus9R,lemonades,kebab,lemonkebab
+TARGET_OTA_ASSERT_DEVICE := OnePlus8,instantnoodle
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -32,13 +32,10 @@ TARGET_SCREEN_DENSITY := 450
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Partitions
-BOARD_SUPER_PARTITION_SIZE := 7516192768
-
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+BOARD_SUPER_PARTITION_SIZE := 15032385536
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
--include vendor/oneplus/lemonades/BoardConfigVendor.mk
+-include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
