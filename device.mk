@@ -39,6 +39,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     OnePlus8WifiOverlay
 
+<<<<<<< HEAD
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/row/kona_bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmi26x_row.json \
@@ -52,6 +53,11 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # fstab
 PRODUCT_PACKAGES += \
     fstab.qcom
+=======
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+>>>>>>> 7e80b2a... instantnoodle: Remove OOS 11 sensor configs
 
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
