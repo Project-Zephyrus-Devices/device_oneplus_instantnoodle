@@ -39,14 +39,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     OnePlus8WifiOverlay
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensors/row/kona_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kona_bmi26x_row.json \
-    $(LOCAL_PATH)/configs/sensors/row/kona_mmc5603x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kona_mmc5603x_0_row.json \
-    $(LOCAL_PATH)/configs/sensors/vzw/kona_T0_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kona_T0_bmi26x_0_vzw.json \
-    $(LOCAL_PATH)/configs/sensors/vzw/kona_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kona_bmi26x_0_vzw.json \
-    $(LOCAL_PATH)/configs/sensors/vzw/kona_mmc5603x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/kona_mmc5603x_0_vzw.json
-
 PRODUCT_SHIPPING_API_LEVEL := 29
     
 # fstab
