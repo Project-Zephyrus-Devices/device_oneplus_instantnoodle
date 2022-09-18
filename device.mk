@@ -38,7 +38,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus8WifiOverlay
-    fstab.qcom
 
 # Sensors
 PRODUCT_COPY_FILES += \
