@@ -411,8 +411,8 @@
 
     <ctl name="ADC1 Volume" value="12" />
     <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC3 Volume" value="0" />
-    <ctl name="ADC4 Volume" value="0" />
+    <ctl name="ADC3 Volume" value="12" />
+    <ctl name="ADC4 Volume" value="12" />
     <ctl name="DEC0 Volume" value="102" />
     <ctl name="DEC1 Volume" value="102" />
     <ctl name="DEC2 Volume" value="102" />
